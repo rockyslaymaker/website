@@ -6,18 +6,16 @@ import wasm from "vite-plugin-wasm";
 
 
 
-export default defineConfig({
+export default defineConfig({    // required for GitHub Pages
   vite: {
     plugins: [
       tailwindcss(),
       wasm(),
       topLevelAwait()
     ],
-    server: {
-      serverBaseURL: process.env.BASE_PATH
-    }
   },
   server: {
+    baseURL: process.env.BASE_PATH,
     prerender: {
       crawlLinks: true
     },
