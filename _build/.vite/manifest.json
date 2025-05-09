@@ -1,0 +1,58 @@
+{
+  "_routing-Dwq6HIL8.js": {
+    "file": "assets/routing-Dwq6HIL8.js",
+    "name": "routing",
+    "imports": [
+      "_web-DWwJjVpX.js"
+    ]
+  },
+  "_web-DWwJjVpX.js": {
+    "file": "assets/web-DWwJjVpX.js",
+    "name": "web"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-B-i-UWgz.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-DWwJjVpX.js",
+      "_routing-Dwq6HIL8.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-BWhKDWdO.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-DWwJjVpX.js"
+    ],
+    "assets": [
+      "assets/convexhull_web_bg-FLtK8Lbg.wasm"
+    ]
+  },
+  "src/wasm/pkg/convexhull_web_bg.wasm": {
+    "file": "assets/convexhull_web_bg-FLtK8Lbg.wasm",
+    "src": "src/wasm/pkg/convexhull_web_bg.wasm"
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-Dogmv0sr.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_web-DWwJjVpX.js",
+      "_routing-Dwq6HIL8.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-SsKRtG3z.css"
+    ]
+  }
+}
