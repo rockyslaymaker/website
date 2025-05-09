@@ -9,11 +9,15 @@ export default defineConfig({
     plugins: [
       tailwindcss(),
       wasm()
-    ]
+    ],
+    server: {
+      serverBaseURL: process.env.BASE_PATH
+    }
   },
   server: {
     prerender: {
       crawlLinks: true
     },
-  }
+  },
+  devOverlay: false,
 });
