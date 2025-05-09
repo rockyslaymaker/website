@@ -1,0 +1,20 @@
+{
+  "name": "convexhull",
+  "type": "module",
+  "collaborators": [
+    "Rocky"
+  ],
+  "version": "0.0.1",
+  "files": [
+    "convexhull_web_bg.wasm",
+    "convexhull_web.js",
+    "convexhull_web_bg.js",
+    "convexhull_web.d.ts"
+  ],
+  "main": "convexhull_web.js",
+  "types": "convexhull_web.d.ts",
+  "sideEffects": [
+    "./convexhull_web.js",
+    "./snippets/*"
+  ]
+}
